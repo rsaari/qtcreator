@@ -7,7 +7,7 @@ Page {
     Label {
         id: label
         anchors.centerIn: parent
-        text: qsTr("Hello world!")
+        text: qsTr(myLabel)
         visible: false
     }
 
@@ -17,7 +17,7 @@ Page {
             top: label.bottom
             topMargin: 10
         }
-        text: qsTr("Click here!")
+        text: qsTr(myButton)
         onClicked: label.visible = true
     }
 }
